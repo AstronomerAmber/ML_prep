@@ -1,6 +1,6 @@
 # ML Q & A interview prep:
 
-### ML Algoritms + Basic ML
+## ML Algoritms + Basic ML
 
 Q: What are the various types of ML? 
 
@@ -187,7 +187,7 @@ Q: What’s the difference between L1 and L2 regularization? How does it solve t
 A: When dealing with a large number of features we no longer want to use CV. Both L1 (Lasso Regression) and L2 (Ridge Regression) regularization techniques are used to address over-fitting and feature selection, the key difference between these two is the penalty term. Lasso Regression (Least Absolute Shrinkage and Selection Operator) adds “absolute value of magnitude” of coefficient while Ridge regression adds “squared magnitude” of coefficient as penalty term to the loss function. 
 The key difference between these techniques is that Lasso is more binary/sparse and shrinks the less important feature’s coefficient to zero thus, removing some feature altogether and L2 regularization tends to spread error among all the term. L1 works well for feature selection in case we have a huge number of features.
 
-### ML Stats
+## ML Stats
 
 Q: What is a Fourier transform? And why do we use it.
 
@@ -213,7 +213,7 @@ Q: When are Maximum Likelihood and Least Squared Error equal?
 
 A: For least squares parameter estimation we want to find the line that minimizes the total squared distance between the data points and the regression line. In maximum likelihood estimation we want to maximize the total probability of the data. When a Gaussian distribution is assumed, the maximum probability is found when the data points get closer to the mean value. Since the Gaussian distribution is symmetric, this is equivalent to minimizing the distance between the data points and the mean value.
 
-#### Sources: 
+### Sources: 
 Astronomer Amber!
 https://ml-cheatsheet.readthedocs.io/en/latest/forwardpropagation.html
 Machine Learning Interview Questions and Answers | Machine Learning Interview Preparation | Edureka
