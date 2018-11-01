@@ -122,7 +122,7 @@ Q: How do you deal with imbalanced data?
 
 A: Collect more data, resample the dataset to correct for imbalances, try difference models or algorithms. 
 
-### ML Validation
+## ML Validation
 
 Q: Name two ways to evaluate the performance of a classification algorithm.
 
