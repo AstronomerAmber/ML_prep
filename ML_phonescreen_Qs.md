@@ -44,6 +44,8 @@ A: NB makes the naive assumption that the features in a dataset are independent 
 
 Q: What is a decision tree and when would you choose to use one?
 
+A: As the name suggests decision trees are tree-like model of decisions, they make relations between features easily interpretable. They can be used for both classification (classify passenger as survived or died) and regression (continuous values like price of a house) and don’t require any assumptions of linearity in the data.
+
 Q: How are they pruned?
 
 A: Pruning is what happens in decision trees when branches that have weak predictive power are removed in order to reduce the complexity of the model and increase the predictive accuracy of a decision tree model. Pruning can happen bottom-up and top-down, with approaches such as reduced error pruning and cost complexity pruning.
@@ -52,13 +54,11 @@ Reduced error pruning is perhaps the simplest version: replace each node. If it 
 
 Q: What is the difference between Gini Impurity and Entropy in a decision tree? 
 
-A: While both are metrics to decide how to split a tree, Gini measurement is the probability of a random sample being classified correctly by randomly picking a label from the branch. In information theory Entropy is the measured lack of information in a system and you calculate gain by making a split. This delta entropy tells you about how the uncertainty about the label was reduced. Gini is more common because it takes memory (n^2) while Entropy take nlog(n).
+A: While both are metrics to decide how to split a tree, Gini measurement is the probability of a random sample being classified correctly by randomly picking a label from the branch. In information theory Entropy is the measured lack of information in a system and you calculate gain by making a split. This delta entropy tells you about how the uncertainty about the label was reduced. Gini is more common because it doesn’t require the log calculations that Entropy takes.
 
 Q: When will Entropy decrease in binary tree classification?
 
 A: It decreases the closer we get to the leaf node.
-
-Q: What are gradient boosted trees?
 
 Q: Why don’t we tend to use linear regression to model binary responses?
 
@@ -102,15 +102,21 @@ A: KNN or K-Nearest Neighbors is a supervised learning method technique used fro
 
 Q: What is ensemble learning?
 
-A: Ensemble techniques use a combination of learning algorithms to optimize better predictive performance. And they typically reduce overfitting in models.
+A: Ensemble techniques use a combination of learning algorithms to optimize better predictive performance. And they typically reduce overfitting in models. Ensembling techniques are further classified into Bagging and Boosting.
 
 Q: What is the difference between bagging and boosting?
 
 A: Both are ensemble models that use random sampling to reduce variance. Bagging models are built independently and better solves the problem of overfitting. Boosting builds on top of old models to create models with less bias, also weights the better performing examples higher, but may overfit. 
 
+Q: How do you go from a decision tree to a random forest? To a Gradient Boosted Tree?
+
+A: Bagging takes many uncorrelated learners to make a final model and it reduces error by reducing variance. Example of bagging ensemble are Random Forest models.
+
+Boosting is an ensemble technique in which the predictors are not made independently, but sequentially in order to learn from the mistakes of the previous predictors. Gradient Boosted Trees are an example of boosting algorithm.
+
 Q: Describe a hash table.
 
-A: A hash table is a data structure that produces an associative array. A key is mapped to certain values through the use of a hash function. They are often used for tasks such as database indexing.
+A: A hash table is a data structure like a dictionary in python. A key is mapped to certain values through the use of a hash function. They are often used for tasks such as database indexing.
 
 Q: How do you deal with imbalanced data?
 
@@ -126,6 +132,10 @@ A: 1) Confusing Matrix ([TN,FP],[FN,TP])
 Q: What’s the difference between Type I and Type II error?
 
 A: Type I error is a false positive, while Type II error is a false negative.
+
+Q: What is the difference between MSE and MAE?
+
+A: MAE loss is more robust to outliers, but its derivatives are not continuous, making it inefficient to find the solution. MSE loss is sensitive to outliers, but gives a more stable and closed form solution (by setting its derivative to 0). Use MAE if you have a lot of anomalies in your dataset.
 
 Q: Why do we need a cost function and which is the best cost to use in classification algorithms.
 
@@ -177,11 +187,39 @@ Q: What’s the difference between L1 and L2 regularization? How does it solve t
 A: When dealing with a large number of features we no longer want to use CV. Both L1 (Lasso Regression) and L2 (Ridge Regression) regularization techniques are used to address over-fitting and feature selection, the key difference between these two is the penalty term. Lasso Regression (Least Absolute Shrinkage and Selection Operator) adds “absolute value of magnitude” of coefficient while Ridge regression adds “squared magnitude” of coefficient as penalty term to the loss function. 
 The key difference between these techniques is that Lasso is more binary/sparse and shrinks the less important feature’s coefficient to zero thus, removing some feature altogether and L2 regularization tends to spread error among all the term. L1 works well for feature selection in case we have a huge number of features.
 
+### ML Stats
+
+Q: What is a Fourier transform? And why do we use it.
+
+A:  Given a smoothie, it’s how we find the recipe (in terms of superposition of symmetric functions). Fourier transforms are used to it’s a extract features from audio signals by converting a signal from time to frequency domain.
+
+Q: What’s the difference between probability and likelihood?
+
+A: For binomial distributions: Probability is the percentage that a success occur. Likelihood is the conditional probability, i.e. the probability that the above event will happen.
+
+Q: What is the difference between PCA and t-SNE? What are their use cases?
+
+A: Both methods are used for dimensionality reduction, but t-SNE tries to deconvolve relationships between neighbors in high-dimensional data to understand the underlying structure of the data. Principal component analysis first identifies the hyperplane that lies closest to the data, and then projects the data onto it. PCA preserves the maximum amount of variance and requires labels, but is much less computationally expensive than t-SNE.
+
+Q: How do eigenvalues and eigenvectors relate to PCA?
+
+A: Eigenvectors have corresponding eigenvalues and eigenvectors that have the largest eigenvalues will be the principal components (new dimensions of our data).
+
+Q: What is Maximum Likelihood (MLE)?
+
+A: Maximum likelihood estimation is a method that determines values for the parameters of a model. The parameter values are found such that they maximize the likelihood that the process described by the model produced the data that were actually observed.
+
+Q: When are Maximum Likelihood and Least Squared Error equal?
+
+A: For least squares parameter estimation we want to find the line that minimizes the total squared distance between the data points and the regression line. In maximum likelihood estimation we want to maximize the total probability of the data. When a Gaussian distribution is assumed, the maximum probability is found when the data points get closer to the mean value. Since the Gaussian distribution is symmetric, this is equivalent to minimizing the distance between the data points and the mean value.
+
 #### Sources: 
-ME!
+Astronomer Amber!
 https://ml-cheatsheet.readthedocs.io/en/latest/forwardpropagation.html
 Machine Learning Interview Questions and Answers | Machine Learning Interview Preparation | Edureka
 https://www.springboard.com/blog/machine-learning-interview-questions/
 https://machinelearningmastery.com/k-fold-cross-validation/
 https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
 https://towardsdatascience.com/support-vector-machine-vs-logistic-regression-94cc2975433f
+https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1
+https://medium.com/mlreview/gradient-boosting-from-scratch-1e317ae4587d
