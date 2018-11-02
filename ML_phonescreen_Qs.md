@@ -27,7 +27,7 @@ Q: Explain how a ROC (Receiver operating characteristic) curve works.
 
 The ROC curve is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds. It’s often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs specificity (false positives). You want your model to get TPs faster than FPs, if there is the same rate of gettingTP as getting FP your model is useless.
 
-Q: Explain TP/TN/FP/TN in a simple example:
+Q: Explain TP/FP/FN/TN in a simple example:
 
 A: - Fire alarm goes off + fire = TP
 Fire alarm goes off + no fire = FP
