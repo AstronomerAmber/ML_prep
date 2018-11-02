@@ -31,7 +31,7 @@ Q: Explain TP/TN/FP/TN in a simple example:
 
 A: - Fire alarm goes off + fire = TP
 Fire alarm goes off + no fire = FP
-Fire alarm doesn’t go off + fire = FP
+Fire alarm doesn’t go off + fire = FN
 Fire alarm doesn’t go off + no fire = TN
 
 Q: What is Bayes Theorem?
