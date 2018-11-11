@@ -66,7 +66,7 @@ A: Linear regression prediction output is continuous, if you want to model binar
 
 Q: What is the difference between hinge loss and log loss?
 
-A: Logistic loss diverges faster than hinge loss. So, in general, it will be more sensitive to outliers. Hinge loss also penalizes wrong answers, as well as correct unconfident answers.
+A: The hinge loss is used for "maximum-margin" classification, most notably for support vector machines. Logistic loss diverges faster than hinge loss. So, in general, it will be more sensitive to outliers. Hinge loss also penalizes wrong answers, as well as correct unconfident answers.
 
 Q: How do linear and logistic regression differ in their error minimization techniques?
 
