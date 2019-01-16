@@ -6,7 +6,7 @@
   
     -Phone screen ML interview prep questions (algorithms, validation methods, stats)
     -Code review checklist
-    -[ML Jeopardy](https://docs.google.com/presentation/d/1Oqwr6QbnSARAXZB_ZQwqNTDapZm3HjlaHWAZn8xtV5I/edit?usp=sharing)
+    - [ML Jeopardy](https://docs.google.com/presentation/d/1Oqwr6QbnSARAXZB_ZQwqNTDapZm3HjlaHWAZn8xtV5I/edit?usp=sharing)
   
  Over the next few months I will be generating the following content:
  
