@@ -8,6 +8,7 @@
 - Code review checklist
 - [ML Jeopardy](https://docs.google.com/presentation/d/1Oqwr6QbnSARAXZB_ZQwqNTDapZm3HjlaHWAZn8xtV5I/edit?usp=sharing)
 - [A Guide to GitHub & Collaborating](https://zhampel.github.io/insight-github-guide/#/)
+- [How to Code at Insight](https://docs.google.com/presentation/d/14n5UmzECKdsQ2IhkL4UuVLn4UAZ7HP5oYCJlXzjFVqs/edit#slide=id.g4c871223d5_0_5)
 
  Over the next few months I will be generating the following content:
 - Phone screening DL/AI interview questions
