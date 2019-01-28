@@ -8,6 +8,7 @@
 - [Code review checklist](https://docs.google.com/document/u/2/d/1ilVZvE9KSzVh_Lc0HDAr3kx1EYtQIyZUBdFt0t08poI/edit)
 - [ML Jeopardy](https://docs.google.com/presentation/d/1Oqwr6QbnSARAXZB_ZQwqNTDapZm3HjlaHWAZn8xtV5I/edit?usp=sharing)
 - [A Guide to GitHub & Collaborating](https://zhampel.github.io/insight-github-guide/#/)
+- [Version Control with Git/Github](https://docs.google.com/presentation/d/1vb3RpQynEk73jJEvm9td-ZdRlMfPygWpHdg4dRC8f2k/edit#slide=id.g3c383738fa_0_81)
 - [How to Code at Insight](https://docs.google.com/presentation/d/14n5UmzECKdsQ2IhkL4UuVLn4UAZ7HP5oYCJlXzjFVqs/edit#slide=id.g4c871223d5_0_5)
 
  Over the next few months I will be generating the following content:
