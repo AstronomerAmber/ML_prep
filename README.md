@@ -20,5 +20,6 @@
 Cloud Computing Resources:
 - [AWS in plain English](https://www.expeditedssl.com/aws-in-plain-english)
 - [Intro to SageMaker](https://docs.google.com/presentation/d/1KDhWM_NjNa2ZpIIAE1MHzL0Tgx00xiL0Ij0JLDjfhAI/edit#slide=id.g4a17de6c9c_0_155)
+- [AWS 101](https://docs.google.com/presentation/d/1WY62iOy9QDVieJ4ccbcWX6ocdB5dnXamjEuzcBljvW8/edit?usp=sharing)
 
 ENJOY!
