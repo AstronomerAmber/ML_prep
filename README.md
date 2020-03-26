@@ -12,7 +12,8 @@
 - [A Guide to GitHub & Collaborating](https://zhampel.github.io/insight-github-guide/#/)
 - [Version Control with Git/Github](https://docs.google.com/presentation/d/1vb3RpQynEk73jJEvm9td-ZdRlMfPygWpHdg4dRC8f2k/edit#slide=id.g3c383738fa_0_81)
 - [Dockerized Data Science](https://drive.google.com/file/d/1Y_080q2Ukev9LyC5EfSjw9PG3W4AQ8uX/view?usp=sharing), a presentation from [Manifold.AI](https://www.manifold.ai/) on using Docker for ML models.
-- [System Design Flashcards](https://quizlet.com/_88ii2t?x=1jqt&i=2p7fwa), huge thanks goes out to [Chip Huyen's](https://github.com/chiphuyen/machine-learning-systems-design) ML repo for assisting!
+- [ML System Design Flashcards](https://quizlet.com/_88ii2t?x=1jqt&i=2p7fwa), huge thanks goes out to [Chip Huyen's](https://github.com/chiphuyen/machine-learning-systems-design) ML repo for assisting!
+- [ML Terminology Falshcards](https://quizlet.com/498570175/flashcards), great to use for ML charades! Shoutout to [Google Developers](https://developers.google.com/machine-learning/glossary) for assisting! 
     
 Cloud Computing Resources:
 - [AWS in plain English](https://www.expeditedssl.com/aws-in-plain-english)
