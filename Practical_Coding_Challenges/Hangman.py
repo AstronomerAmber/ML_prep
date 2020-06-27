@@ -28,7 +28,7 @@ Display the hangman to symbolize the number of guesses
 
 5/
 
-Before submitting, you need AT LEAST 2 classes to pass this practical. 
+Before submitting, you need AT LEAST 2 classes to pass this practical.
 
 Tips:
 

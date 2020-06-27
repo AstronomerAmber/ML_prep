@@ -1,8 +1,8 @@
 """
 Code up the game connect four
-3 class solution
-
+2 class solution
 """
+
 import numpy as np
 
 class Board:
