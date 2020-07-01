@@ -146,8 +146,8 @@ class HumanPlayer(Player):
 class AIPlayer(Player):
   pass
 
-if __name__ == '__main__':
-  g = Game
-  dealer = Dealer()
-  human = HumanPlayer()
-  g.play(dealer, human)
+
+player = HumanPlayer()
+dealer = Dealer()
+game = BlackjackGame(player, dealer)
+game.play()
