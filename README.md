@@ -1,7 +1,7 @@
 # Machine Learning Interview Prep!
 ## Goal: To prepare those looking to transition into a MLE role.
 
-***Brought to you by [Insight Data Science](https://www.insightdata.ai/), apply for our FREE 7-Week AI Fellowship today!*** 
+***Brought to you by [Insight Data Science](https://www.insightdata.ai/), apply for our 7-Week AI Fellowship today!*** 
 
   Currently this repo contains:  
 - Phone screen [ML interview prep](https://docs.google.com/document/d/148hyUHe5p0k0Xk6T4jF_ZOsJFwRviofM5SSUPiFyuMk/edit?usp=sharing) questions (algorithms, validation methods, stats)
