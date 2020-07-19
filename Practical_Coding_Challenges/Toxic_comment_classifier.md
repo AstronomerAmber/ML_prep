@@ -50,7 +50,7 @@ Step 5: MODELING STEPS
 
 
 Solutions:
-- (A+)[https://colab.research.google.com/drive/1UnOC6mIfIHpq5Sc7dTYAVvuOhdgqyuZn#scrollTo=eOPtjvP2syVm]
-- (A)[https://colab.research.google.com/drive/1hVV966ioupI5_f__VEHk5RotPlVGIrhd]
-- (B+)[https://colab.research.google.com/drive/1leJ4qLMr4yBUlG4CkX1GixQAhMjSQMnS]
-- (B)[https://colab.research.google.com/drive/1FOpzu4X9CChrfXcFeypGp5oS0ymi1WXi]
+- [A+](https://colab.research.google.com/drive/1UnOC6mIfIHpq5Sc7dTYAVvuOhdgqyuZn#scrollTo=eOPtjvP2syVm)
+- [A](https://colab.research.google.com/drive/1hVV966ioupI5_f__VEHk5RotPlVGIrhd)
+- [B+](https://colab.research.google.com/drive/1leJ4qLMr4yBUlG4CkX1GixQAhMjSQMnS)
+- [B](https://colab.research.google.com/drive/1FOpzu4X9CChrfXcFeypGp5oS0ymi1WXi)
