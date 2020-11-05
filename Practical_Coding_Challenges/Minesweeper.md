@@ -1,4 +1,4 @@
-"""
+
 Objective: Coding Minesweeper from scratch
 Dependcies: Python 3.6, numpy, re, time, ascii_lowercase
 **Coding Minesweeper from scratch**
@@ -43,5 +43,3 @@ Add animate to the propagation
 ![ ](https://codesignal.s3.amazonaws.com/uploads/1593570776392/Screen_Shot_2020-06-30_at_7.32.26_PM.png)
 ![ ](https://codesignal.s3.amazonaws.com/uploads/1593573679741/Screen_Shot_2020-06-30_at_7.43.04_PM.png)
 ![](https://codesignal.s3.amazonaws.com/uploads/1593573698324/Screen_Shot_2020-06-30_at_7.43.40_PM.png)
-
-"""
